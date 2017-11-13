@@ -1,0 +1,80 @@
+@page {
+  size: A4;
+  margin: 10mm;
+}
+
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+}
+
+.jumbotron {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 90px;
+  margin-bottom: 10px;
+}
+.my-name {
+  float: left;
+  position: absolute;
+}
+
+.footer {
+  margin-bottom: 0px;
+  display:inline-block;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 4px;
+}
+
+.contact {
+  float: right;
+}
+
+.separator {
+  height: 10px;
+}
+
+.left-bar {
+  width: 25%;
+  min-width: 220px;
+  float: left;
+  margin-right: 2px;
+}
+
+.right-bar {
+  width: 70%;
+  float: right;
+}
+
+.card, .card-body {
+  margin-top: 2px;
+  padding: 3px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.list-group-item {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.profile-summary {
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 5px;
+  background: #eeeeee;
+}
+
+.work-title {
+  font-size: 110%;
+  font-weight: bold;
+  margin: 0px;
+}
