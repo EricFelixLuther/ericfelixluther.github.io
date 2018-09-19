@@ -1,0 +1,9 @@
+[
+  {"name": "Python", "children": ["Django", "Selenium"]}
+  {"name": "JavaScript", "children": ["jQuery", "ReactJS", "CalendarJS", "Masonry.js", "Angular"]}
+  {"name": "Bazy danych", "children": ["MySQL", "PostgreSQL", "SQLite"]}
+  {"name": "Systemy operacyjne", "children": ["Ubuntu", "Fedora", "Windows"]}
+  {"name": "CSS", "children": ["Bootstrap"]}
+  {"name": "Inne", "children": ["C", "Java"]}
+  {"name": "", "children": []}
+]

@@ -21,7 +21,7 @@
   position: absolute;
 }
 
-.footer {
+footer {
   margin-bottom: 0px;
   display:inline-block;
   border: 1px solid grey;
@@ -38,16 +38,16 @@
   height: 10px;
 }
 
-.left-bar {
-/*  width: 25%;
+#left-column {
+width: 25%;
   min-width: 220px;
   float: left;
-  margin-right: 2px;*/
+  margin-right: 2px;
 }
 
-.right-bar {
-/*  width: 70%;
-  float: right;*/
+#right-column {
+  width: 70%;
+  float: right;
 }
 
 .card, .card-body {
