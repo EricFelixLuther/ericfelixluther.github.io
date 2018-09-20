@@ -14,7 +14,36 @@
   <title>Krzysztof Maciejczuk CV</title>
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid" id="form">
+    <div class="row">
+      <div class="col">
+        <h1>Krzysztof Maciejczuk CV</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p>Po załadowaniu można CV wydrukować lub zapisać jako PDF na dysku (wydruk do pliku).</p>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col">
+        <label for="company_name">Proszę podać nazwę firmy (małymi literami, bez spacji)</label>
+        <input type="text" class="form-control" id="company_name" placeholder="Firma">
+        <small class="form-text text-muted">Jeśli dane wpisano prawidłowo, informacje CV powinny się załadować.</small>
+      </div>
+      <div class="form-group col">
+        <label for="language">Język</label>
+        <select id="language" class="form-control">
+          <option selected value="pl">PL</option>
+          <option value="en">EN</option>
+        </select>
+      </div>
+      <div class="form-group col">
+        <button class="btn btn-primary btn-lg" id="load_stuff">Załaduj</button>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="cv" style="display: none;">
     <div class="jumbotron">
       <div class="text-left my-name">
         <h1 id="name_placeholder"></h1>

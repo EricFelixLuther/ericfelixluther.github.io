@@ -56,14 +56,27 @@ var trainings = function(data){
 }
 
 $(document).ready(function() {
-  $.get("resources/top.json", top_data);
-  $.get("resources/pl/it_tools.json", it_tools);
-  $.get("resources/pl/it_skills.json", it_skills);
-  $.get("resources/pl/interests.json", interests);
-  $.get("resources/pl/languages.json", languages);
-  $.get("resources/pl/other_experience.json", other_exp);
-  $.get("resources/pl/texts.json", texts);
-  $.get("resources/pl/work_experience.json", job_experience);
-  $.get("resources/pl/education.json", education);
-  $.get("resources/pl/trainings.json", trainings);
+  $("#load_stuff").click(function(){
+    var company = $("#company_name").val();
+    var lang = $("#language").val();
+    var folder = "resources/" + company + "/" + lang + "/";
+    $.get("resources/" + company + "/test.json", function(data){
+      if(data.success){
+        $("#form").hide();
+        $("#cv").show();
+        $.get("resources/top.json", top_data);
+        $.get(folder + "it_tools.json", it_tools);
+        $.get(folder + "it_skills.json", it_skills);
+        $.get(folder + "interests.json", interests);
+        $.get(folder + "languages.json", languages);
+        $.get(folder + "other_experience.json", other_exp);
+        $.get(folder + "texts.json", texts);
+        $.get(folder + "work_experience.json", job_experience);
+        $.get(folder + "education.json", education);
+        $.get(folder + "trainings.json", trainings);
+      } else {
+        alert("It seems your company did not contact me regarding recruitation, therefore no information should be viewed.")
+      }
+    });
+  });
 });
