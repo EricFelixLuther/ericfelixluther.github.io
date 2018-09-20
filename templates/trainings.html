@@ -1,0 +1,31 @@
+<div class="card-body">
+  <h4 class="card-title card-header">{{title}}</h4>
+  <table class="table table-sm">
+    <thead>
+      <tr>
+        <th>Okres</th>
+        <th>Nazwa kursu</th>
+        <th>Organizator</th>
+        <th>Certyfikat</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#data}}
+        <tr>
+          <th>
+            {{time}}
+          </th>
+          <td>
+            {{name}}
+          </td>
+          <td>
+            {{host}}
+          </td>
+          <td>
+            {{cert}}
+          </td>
+        </tr>
+      {{/data}}
+    </tbody>
+  </table>
+</div>

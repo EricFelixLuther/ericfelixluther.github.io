@@ -1,10 +1,13 @@
-[
-  "Elektronika (Arduino, Raspberry Pi)",
-  "Aplikacje mobilne",
-  "Virtual Reality",
-  "Najnowsze technologie",
-  "Gry wideo / planszowe",
-  "Programowanie i projektowanie gier",
-  "Fantastyka (steampunk, dieselpunk)",
-  "Tańce epoki swingu"
-]
+{
+  "title": "Zainteresowania",
+  "data": [
+    "Elektronika (Arduino, Raspberry Pi)",
+    "Aplikacje mobilne",
+    "Virtual Reality",
+    "Najnowsze technologie",
+    "Gry wideo / planszowe",
+    "Programowanie i projektowanie gier",
+    "Fantastyka (steampunk, dieselpunk)",
+    "Tańce epoki swingu"
+  ]
+}

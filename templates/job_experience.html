@@ -1,0 +1,35 @@
+<div class="card-body">
+  <h4 class="card-title card-header">{{title}}</h4>
+  {{#data}}
+    <div class='row'>
+      <div class='col-2'>
+        {{period}}
+      </div>
+      <div class='col-10'>
+        <p class='work-title'>
+          {{company}} - {{job_title}}
+        </p>
+        <p class='work-title'>
+          Zakres obowiązków:
+        </p>
+        <ul class='list-group'>
+          {{#responsibilities}}
+            <li class='list-group-item'>
+              {{.}}
+            </li>
+          {{/responsibilities}}
+        </ul>
+        <p class='work-title'>
+          Osiągnięcia:
+        </p>
+        <ul class='list-group'>
+          {{#achievements}}
+            <li class='list-group-item'>
+              {{.}}
+            </li>
+          {{/achievements}}
+        </ul>
+      </div>
+    </div>
+  {{/data}}
+</div>

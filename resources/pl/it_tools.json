@@ -1,9 +1,11 @@
-[
-  {"name": "Python", "children": ["Django", "Selenium"]}
-  {"name": "JavaScript", "children": ["jQuery", "ReactJS", "CalendarJS", "Masonry.js", "Angular"]}
-  {"name": "Bazy danych", "children": ["MySQL", "PostgreSQL", "SQLite"]}
-  {"name": "Systemy operacyjne", "children": ["Ubuntu", "Fedora", "Windows"]}
-  {"name": "CSS", "children": ["Bootstrap"]}
-  {"name": "Inne", "children": ["C", "Java"]}
-  {"name": "", "children": []}
-]
+{
+  "title": "Narzędzia IT",
+  "items": [
+    {"name": "Python", "children": ["Django", "Django Extensions", "Selenium"]},
+    {"name": "JavaScript", "children": ["jQuery", "React", "CalendarJS", "Masonry.js", "Charts.js", "Mustache", "Angular"]},
+    {"name": "Bazy danych", "children": ["MySQL", "PostgreSQL", "SQLite"]},
+    {"name": "Systemy operacyjne", "children": ["Ubuntu", "Fedora", "Windows"]},
+    {"name": "CSS", "children": ["Bootstrap"]},
+    {"name": "Inne", "children": ["C", "Java"]}
+  ]
+}

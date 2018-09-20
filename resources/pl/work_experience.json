@@ -1,54 +1,57 @@
-[
-  {
-    "period": "2018.03 - do dziś",
-    "company": "Samsung Electronics Polska",
-    "job_title": "Software Engineer",
-    "responsibilities": [
-      "Wszystkie obowiązki Junior Software Engineer",
-      "Zarządzanie projektem",
-      "Kontakt z klientem i ustalanie funkcjonalności",
-      "Praca nad długoterminowym i wielowarstwowym projektem - wewnętrznym portalem dla pracowników"
-    ],
-    "achievements": [
-      "Poprawa jakości kodu oraz przyspieszenie działania projektu poprzez refaktoryzację.",
-      "Wprowadzanie nowych, bezawaryjnych funkcjonalności zgodnie z oczekiwaniami klienta."
-    ]
-  },
-  {
-    "period": "2015.03 - 2018.03",
-    "company": "Samsung Electronics Polska",
-    "job_title": "Junior Software Engineer",
-    "responsibilities": [
-      "Praca nad długoterminowym i wielowarstwowym projektem - wewnętrznym portalem dla pracowników",
-      "Rozwój i utrzymanie aplikacji webowych",
-      "Obsługa bazy danych SQL",
-      "Pisanie skryptów JavaScript i jQuery",
-      "Pisanie dokumentacji projektowych",
-      "Front-end (HTML, CSS)",
-      "Projektowanie testów automatyzacyjnych",
-      "Utrzymywanie serwera Linuxowego"
-    ],
-    "achievements": [
-      "Poprawa jakości kodu oraz przyspieszenie działania projektu poprzez refaktoryzację.",
-      "Wprowadzanie nowych, bezawaryjnych funkcjonalności zgodnie z oczekiwaniami klienta.",
-      "Wdrażanie nowych bibliotek usprawniających działanie",
-      "Poprawa UX"
-    ]
-  },
-  {
-    "period": "2012.11 - 2015.03 ",
-    "company": "Samsung Electronics Polska",
-    "job_title": "Software Tester",
-    "responsibilities": [
-      "Testy eksploracyjne",
-      "Testy interfejsu użytkownika",
-      "Weryfikacja poprzez przypadki testowe",
-      "Zgłaszanie błędów, współpraca z programistami i sporządzanie raportów z testów",
-      "Planowanie, projektowanie i pisanie kodu testów automatycznych"
-    ],
-    "achievements": [
-      "Utrzymanie wysokich wyników zgłaszanych błędów",
-      "Zgłoszenie wielu błędów o wysokim priorytecie"
-    ]
-  }
-]
+{
+  "title": "Doświadczenie zawodowe",
+  "data": [
+    {
+      "period": "2018.03 - do dziś",
+      "company": "Samsung Electronics Polska",
+      "job_title": "Software Engineer",
+      "responsibilities": [
+        "Wszystkie obowiązki Junior Software Engineer",
+        "Zarządzanie projektem",
+        "Kontakt z klientem i ustalanie funkcjonalności",
+        "Praca nad długoterminowym i wielowarstwowym projektem - wewnętrznym portalem dla pracowników"
+      ],
+      "achievements": [
+        "Poprawa jakości kodu oraz przyspieszenie działania projektu poprzez refaktoryzację.",
+        "Wprowadzanie nowych, bezawaryjnych funkcjonalności zgodnie z oczekiwaniami klienta."
+      ]
+    },
+    {
+      "period": "2015.03 - 2018.03",
+      "company": "Samsung Electronics Polska",
+      "job_title": "Junior Software Engineer",
+      "responsibilities": [
+        "Praca nad długoterminowym i wielowarstwowym projektem - wewnętrznym portalem dla pracowników",
+        "Rozwój i utrzymanie aplikacji webowych",
+        "Obsługa bazy danych SQL",
+        "Pisanie skryptów JavaScript i jQuery",
+        "Pisanie dokumentacji projektowych",
+        "Front-end (HTML, CSS)",
+        "Projektowanie testów automatyzacyjnych",
+        "Utrzymywanie serwera Linuxowego"
+      ],
+      "achievements": [
+        "Poprawa jakości kodu oraz przyspieszenie działania projektu poprzez refaktoryzację.",
+        "Wprowadzanie nowych, bezawaryjnych funkcjonalności zgodnie z oczekiwaniami klienta.",
+        "Wdrażanie nowych bibliotek usprawniających działanie",
+        "Poprawa UX"
+      ]
+    },
+    {
+      "period": "2012.11 - 2015.03 ",
+      "company": "Samsung Electronics Polska",
+      "job_title": "Software Tester",
+      "responsibilities": [
+        "Testy eksploracyjne",
+        "Testy interfejsu użytkownika",
+        "Weryfikacja poprzez przypadki testowe",
+        "Zgłaszanie błędów, współpraca z programistami i sporządzanie raportów z testów",
+        "Planowanie, projektowanie i pisanie kodu testów automatycznych"
+      ],
+      "achievements": [
+        "Utrzymanie wysokich wyników zgłaszanych błędów",
+        "Zgłoszenie wielu błędów o wysokim priorytecie"
+      ]
+    }
+  ]
+}
