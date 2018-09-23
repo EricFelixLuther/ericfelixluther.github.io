@@ -58,6 +58,10 @@ footer {
 
 
 @media (min-width: 576px) {
+  #my-picture-upper {
+    display: block;
+  }
+
   #my-picture-left {
     display: none;
   }
@@ -73,24 +77,19 @@ footer {
 
 @media (min-width: 768px) {
   #my-picture-upper {
-    display: none;
-  }
-
-  #my-picture-left {
     display: block;
   }
 
+  #my-picture-left {
+    display: none;
+  }
 
   .left-column {
-    width: 25%;
-    min-width: 220px;
-    float: left;
-    margin-right: 2px;
+    width: 100%;
   }
 
   .right-column {
-    width: 70%;
-    float: right;
+    width: 100%;
   }
 }
 
