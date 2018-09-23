@@ -27,18 +27,6 @@ footer {
   width: 100%;
 }
 
-.left-column {
-  width: 25%;
-  min-width: 220px;
-  float: left;
-  margin-right: 2px;
-}
-
-.right-column {
-  width: 74%;
-  float: right;
-}
-
 .card, .card-body {
   margin-top: 2px;
   padding: 3px;
@@ -69,8 +57,62 @@ footer {
 }
 
 
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {
+  #my-picture-left {
+    display: none;
+  }
 
-@media (min-width: 768px) { ... }
+  .left-column {
+    width: 100%;
+  }
 
-@media (min-width: 992px) { ... }
+  .right-column {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #my-picture-upper {
+    display: none;
+  }
+
+  #my-picture-left {
+    display: block;
+  }
+
+
+  .left-column {
+    width: 25%;
+    min-width: 220px;
+    float: left;
+    margin-right: 2px;
+  }
+
+  .right-column {
+    width: 70%;
+    float: right;
+  }
+}
+
+@media (min-width: 992px) {
+  #my-picture-upper {
+    display: none;
+  }
+
+  #my-picture-left {
+    display: block;
+  }
+
+
+  .left-column {
+    width: 25%;
+    min-width: 220px;
+    float: left;
+    margin-right: 2px;
+  }
+
+  .right-column {
+    width: 74%;
+    float: right;
+  }
+}
