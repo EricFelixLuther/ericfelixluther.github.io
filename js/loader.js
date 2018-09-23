@@ -1,3 +1,14 @@
+alert_messages = {
+  "pl": {
+    "data_unavailable": "Dane, które próbujesz obejrzeć nie są już dla Ciebie dostępne. Przykro mi! Skontaktuj się ze mną, jeżeli wciąż chcesz je oglądać.",
+    "no_data": "Wygląda na to, że nie otrzymałem kontaktu dotyczącego rekrutacji od Twojej firmy, stąd też nie masz pozwolenia na przejrzenie informacji."
+  },
+  "en": {
+    "data_unavailable": "The data are no longer available to you. Sorry! Please, contact me if you wish to view.",
+    "no_data": "It seems you or your company did not contact me regarding recruitation, therefore you have no permition to view."
+  }
+}
+
 var get_and_render = function(template_file, placeholder, data){
   $.get("templates/" + template_file, function(template){
     var rendered = Mustache.render(template, data);
@@ -57,11 +68,12 @@ var trainings = function(data){
 
 $(document).ready(function() {
   $("#load_stuff").click(function(){
-    var company = $("#company_name").val();
-    var lang = $("#language").val();
-    var folder = "resources/" + company + "/" + lang + "/";
-    $.get("resources/" + company + "/test.json", function(data){
+    var folder = "resources/" + $("#company_name").val() + "/";
+    $.get(folder.concat("test.json"), function(data){
       if(data.success){
+        var language = $("#language").val();
+        document.documentElement.lang = language;
+        folder = folder.concat(language, "/");
         $("#form").hide();
         $("#cv").show();
         $.get("resources/top.json", top_data);
@@ -75,8 +87,8 @@ $(document).ready(function() {
         $.get(folder + "education.json", education);
         $.get(folder + "trainings.json", trainings);
       } else {
-        alert("It seems your company did not contact me regarding recruitation, therefore no information should be viewed.")
+        alert(alert_messages[language]["data_unavailable"])
       }
-    });
+    }).fail(alert(alert_messages[language]["no_data"]));
   });
 });
