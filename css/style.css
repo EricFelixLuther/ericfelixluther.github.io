@@ -77,19 +77,23 @@ footer {
 
 @media (min-width: 768px) {
   #my-picture-upper {
-    display: block;
-  }
-
-  #my-picture-left {
     display: none;
   }
 
+  #my-picture-left {
+    display: block;
+  }
+
   .left-column {
-    width: 100%;
+    width: 25%;
+    min-width: 220px;
+    float: left;
+    margin-right: 2px;
   }
 
   .right-column {
-    width: 100%;
+    width: 71%;
+    float: right;
   }
 }
 

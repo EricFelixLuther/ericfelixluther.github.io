@@ -1,4 +1,4 @@
-alert_messages = {
+var alert_messages = {
   "pl": {
     "data_unavailable": "Dane, które próbujesz obejrzeć nie są już dla Ciebie dostępne. Przykro mi! Skontaktuj się ze mną, jeżeli wciąż chcesz je oglądać.",
     "no_data": "Wygląda na to, że nie otrzymałem kontaktu dotyczącego rekrutacji od Twojej firmy, stąd też nie masz pozwolenia na przejrzenie informacji."
@@ -68,10 +68,10 @@ var trainings = function(data){
 
 $(document).ready(function() {
   $("#load_stuff").click(function(){
-    var folder = "resources/" + $("#company_name").val() + "/";
+    var folder = "resources/" + $("#name").val() + "/";
+    var language = $("#language").val();
     $.get(folder.concat("test.json"), function(data){
       if(data.success){
-        var language = $("#language").val();
         document.documentElement.lang = language;
         folder = folder.concat(language, "/");
         $("#form").hide();
@@ -89,6 +89,7 @@ $(document).ready(function() {
       } else {
         alert(alert_messages[language]["data_unavailable"])
       }
+      return true;
     }).fail(alert(alert_messages[language]["no_data"]));
   });
 });
