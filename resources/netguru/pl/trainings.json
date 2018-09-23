@@ -1,0 +1,18 @@
+{
+  "title": "Odbyte szkolenia",
+  "period": "Okres",
+  "course": "Nazwa kursu",
+  "organizer": "Organizator",
+  "certified": "Certyfikat",
+  "data": [
+    {"time": "Październik 2017", "name": "Bootstrap 4", "host": "Udemy", "cert": "Tak"},
+    {"time": "Wrzesień 2017", "name": "Angular", "host": "Udemy", "cert": "Tak"},
+    {"time": "Grudzień 2016", "name": "Clean Code", "host": "Samsung Electronics", "cert": "Nie"},
+    {"time": "Kwiecień 2015", "name": "Algorytmy", "host": "Samsung Electronics", "cert": "Nie"},
+    {"time": "Styczeń 2016", "name": "Selenium wprowadzenie", "host": "Samsung Electronics", "cert": "Nie"},
+    {"time": "Wrzesień 2014", "name": "Python, poziom zaawansowany", "host": "Samsung Electronics", "cert": "Nie"},
+    {"time": "Czerwiec-lipiec 2014", "name": "App Design Course", "host": "Adobe Generation", "cert": "Tak"},
+    {"time": "Maj-Czerwiec 2014", "name": "Games Design Course", "host": "Adobe Generation", "cert": "Tak"},
+    {"time": "Styczeń-Czerwiec 2014", "name": "Introduction to Computer Science and Programming", "host": "edX.org & MITx", "cert": "Tak"}
+  ]
+}
