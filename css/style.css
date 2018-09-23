@@ -13,12 +13,8 @@
 .jumbotron {
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 90px;
+
   margin-bottom: 10px;
-}
-.my-name {
-  float: left;
-  position: absolute;
 }
 
 footer {
@@ -29,14 +25,6 @@ footer {
   margin: 2px;
   padding: 4px;
   width: 100%;
-}
-
-.contact {
-  float: right;
-}
-
-.separator {
-  height: 10px;
 }
 
 .left-column {
@@ -79,3 +67,10 @@ footer {
   font-weight: bold;
   margin: 0px;
 }
+
+
+@media (min-width: 576px) { ... }
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 992px) { ... }
