@@ -73,6 +73,7 @@ $(document).ready(function() {
     var success = false;
     $.get(folder.concat("test.json"), function(data){
       if(data.success){
+        //var success = true;
         document.documentElement.lang = language;
         folder = folder.concat(language, "/");
         $("#form").hide();
@@ -87,15 +88,13 @@ $(document).ready(function() {
         $.get(folder + "work_experience.json", job_experience);
         $.get(folder + "education.json", education);
         $.get(folder + "trainings.json", trainings);
-        var success = true;
       } else {
         alert(alert_messages[language]["data_unavailable"])
       }
 
     });
-    alert(success);
-    if(!success){
-      alert(alert_messages[language]["no_data"]);
-    };
+    //if(!success){
+    //  alert(alert_messages[language]["no_data"]);
+    //};
   });
 });
