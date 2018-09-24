@@ -13,7 +13,6 @@
 .jumbotron {
   padding-top: 10px;
   padding-bottom: 10px;
-
   margin-bottom: 10px;
 }
 
@@ -56,6 +55,11 @@ footer {
   margin: 0px;
 }
 
+.work-subtitle {
+  font-size: 90%;
+  font-weight: bold;
+  margin: 0px;
+}
 
 @media (min-width: 576px) {
   #my-picture-upper {
