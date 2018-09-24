@@ -70,6 +70,7 @@ $(document).ready(function() {
   $("#load_stuff").click(function(){
     var folder = "resources/" + $("#name").val() + "/";
     var language = $("#language").val();
+    var success = false;
     $.get(folder.concat("test.json"), function(data){
       if(data.success){
         document.documentElement.lang = language;
@@ -86,10 +87,15 @@ $(document).ready(function() {
         $.get(folder + "work_experience.json", job_experience);
         $.get(folder + "education.json", education);
         $.get(folder + "trainings.json", trainings);
+        var success = true;
       } else {
         alert(alert_messages[language]["data_unavailable"])
       }
-      return true;
-    }).fail(alert(alert_messages[language]["no_data"]));
+
+    });
+    alert(success);
+    if(!success){
+      alert(alert_messages[language]["no_data"]);
+    };
   });
 });
