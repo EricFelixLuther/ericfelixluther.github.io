@@ -16,7 +16,7 @@
       "achievements": [
         "Introducing new libraries",
         "A test management framework which exceeded clients expectations.",
-        "Own calendar system for teams' time management",
+        "Own SPA calendar system for teams' time management",
         "UX enhancement"
       ]
     },
@@ -25,7 +25,7 @@
       "company": "Samsung Electronics Poland",
       "job_title": "Junior Software Engineer",
       "responsibilities": [
-        "Working on a longterm and multiple layered project - intranet portal for employees.",
+        "Working on a long-term and multi-layered project - intranet portal for employees.",
         "Web app backend's maintenance and development in Python/Django",
         "SQL database handling",
         "JavaScript and jQuery scripts writing",
