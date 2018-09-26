@@ -9,10 +9,22 @@ var alert_messages = {
   }
 }
 
-var get_and_render = function(template_file, placeholder, data){
-  $.get("templates/" + template_file, function(template){
+var get_data = function(folder_name, lang, data_file, handler){
+  $.get(
+    "resources/" + folder_name + "/" + lang + "/" + data_file
+  ).done(handler).fail(function(){get_data("default", lang, data_file, handler)});
+};
+
+
+var get_template_and_render_data = function(template_file, placeholder, data){
+  $.get("templates/" + template_file).done(function(template){
     var rendered = Mustache.render(template, data);
     $(placeholder).html(rendered);
+  }).fail(function(jqXHR, textStatus, errorThrown){
+    console.log("error!");
+    console.log(jqXHR);
+    console.log(textStatus);
+    console.log(errorThrown);
   });
 }
 
@@ -26,11 +38,11 @@ var top_data = function(data){
 }
 
 var it_tools = function(data){
-  get_and_render("it_tools.html", "#it_tools_placeholder", data);
+  get_template_and_render_data("it_tools.html", "#it_tools_placeholder", data);
 }
 
 var add_to_list = function(data, placeholder){
-  get_and_render("simple_list_card.html", placeholder, {"title": data.title, "data": data.data});
+  get_template_and_render_data("simple_list_card.html", placeholder, {"title": data.title, "data": data.data});
 }
 
 var it_skills = function(data){
@@ -42,7 +54,7 @@ var interests = function(data){
 }
 
 var languages = function(data){
-  get_and_render("languages.html", "#languages_placeholder", data);
+  get_template_and_render_data("languages.html", "#languages_placeholder", data);
 }
 
 var other_exp = function(data){
@@ -55,20 +67,21 @@ var texts = function(data){
 }
 
 var job_experience = function(data){
-  get_and_render("job_experience.html", "#job_experience_placeholder", data);
+  get_template_and_render_data("job_experience.html", "#job_experience_placeholder", data);
 }
 
 var education = function(data){
-  get_and_render("education.html", "#education_placeholder", data);
+  get_template_and_render_data("education.html", "#education_placeholder", data);
 }
 
 var trainings = function(data){
-  get_and_render("trainings.html", "#trainings_placeholder", data);
+  get_template_and_render_data("trainings.html", "#trainings_placeholder", data);
 }
 
 $(document).ready(function() {
   $("#load_stuff").click(function(){
-    var folder = "resources/" + $("#name").val() + "/";
+    var folder_name = $("#name").val();
+    var folder = "resources/" + folder_name + "/";
     var language = $("#language").val();
     var success = false;
     $.get(folder.concat("test.json"), function(data){
@@ -86,7 +99,8 @@ $(document).ready(function() {
         $.get(folder + "other_experience.json", other_exp);
         $.get(folder + "texts.json", texts);
         $.get(folder + "work_experience.json", job_experience);
-        $.get(folder + "education.json", education);
+        //$.get(folder + "education.json", education);
+        get_data(folder_name, language, "education.json", education);
         $.get(folder + "trainings.json", trainings);
       } else {
         alert(alert_messages[language]["data_unavailable"])

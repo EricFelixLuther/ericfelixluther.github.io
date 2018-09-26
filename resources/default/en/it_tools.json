@@ -1,0 +1,11 @@
+{
+  "title": "IT Tools",
+  "items": [
+    {"name": "Python", "children": ["Django", "Django Extensions", "Selenium"]},
+    {"name": "JavaScript", "children": ["jQuery", "CalendarJS", "Masonry.js", "Charts.js", "Mustache", "React", "Angular"]},
+    {"name": "Databases", "children": ["MySQL", "PostgreSQL", "SQLite"]},
+    {"name": "Operating Systems", "children": ["Ubuntu", "Fedora", "Windows"]},
+    {"name": "CSS", "children": ["Bootstrap"]},
+    {"name": "Others", "children": ["C", "Java"]}
+  ]
+}
