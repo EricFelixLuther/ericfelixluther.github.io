@@ -6,6 +6,6 @@
     {"name": "Bazy danych", "children": ["MySQL", "PostgreSQL", "SQLite"]},
     {"name": "Systemy operacyjne", "children": ["Ubuntu", "Fedora", "Windows"]},
     {"name": "HTML5/CSS3", "children": ["Bootstrap"]},
-    {"name": "Inne", "children": ["C", "Java", "Docker]}
+    {"name": "Inne", "children": ["C", "Java", "Docker"]}
   ]
 }

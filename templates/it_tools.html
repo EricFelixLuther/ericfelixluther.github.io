@@ -1,15 +1,21 @@
-<div class="card-body">
-  <h4 class="card-title card-header">{{title}}</h4>
-  <ul class="list-group">
-    {{#items}}
-      <li class='list-group-item'>
-        {{name}}
-        <ul>
-          {{#children}}
-            <li>{{.}}</li>
-          {{/children}}
+<div class="row">
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title card-header">{{title}}</h4>
+        <ul class="list-group">
+          {{#items}}
+            <li class='list-group-item'>
+              {{name}}
+              <ul>
+                {{#children}}
+                  <li>{{.}}</li>
+                {{/children}}
+              </ul>
+            </li>
+          {{/items}}
         </ul>
-      </li>
-    {{/items}}
-  </ul>
+      </div>
+    </div>
+  </div>
 </div>

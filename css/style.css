@@ -16,6 +16,10 @@
   margin-bottom: 10px;
 }
 
+.container-row {
+  display: inline;
+}
+
 footer {
   margin-bottom: 0px;
   display:inline-block;
@@ -37,6 +41,11 @@ footer {
   padding: 7px;
 }
 
+.card-subtitle {
+  padding: 7px;
+  float: right;
+}
+
 .list-group-item {
   padding-top: 2px;
   padding-bottom: 2px;
@@ -47,6 +56,9 @@ footer {
   border-radius: 5px;
   padding: 5px;
   background: #eeeeee;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 0 30px;
 }
 
 .work-title {

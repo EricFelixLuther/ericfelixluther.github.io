@@ -1,31 +1,37 @@
-<div class="card-body">
-  <h4 class="card-title card-header">{{title}}</h4>
-  <table class="table table-sm">
-    <thead>
-      <tr>
-        <th>{{period}}</th>
-        <th>{{course}}</th>
-        <th>{{organizer}}</th>
-        <th>{{certified}}</th>
-      </tr>
-    </thead>
-    <tbody>
-      {{#data}}
-        <tr>
-          <th>
-            {{time}}
-          </th>
-          <td>
-            {{name}}
-          </td>
-          <td>
-            {{host}}
-          </td>
-          <td>
-            {{cert}}
-          </td>
-        </tr>
-      {{/data}}
-    </tbody>
-  </table>
+<div class="row">
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title card-header">{{title}}</h4>
+        <table class="table table-sm">
+          <thead>
+            <tr>
+              <th>{{period}}</th>
+              <th>{{course}}</th>
+              <th>{{organizer}}</th>
+              <th>{{certified}}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#data}}
+              <tr>
+                <th>
+                  {{time}}
+                </th>
+                <td>
+                  {{name}}
+                </td>
+                <td>
+                  {{host}}
+                </td>
+                <td>
+                  {{cert}}
+                </td>
+              </tr>
+            {{/data}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 </div>
