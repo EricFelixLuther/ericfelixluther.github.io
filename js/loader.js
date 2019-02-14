@@ -92,13 +92,14 @@ $(document).ready(function() {
         $("#form").hide();
         $("#cv").show();
         $.get("resources/top.json", top_data);
+        get_data(folder_name, language, "texts.json", texts);
         // Left column
         get_data(folder_name, language, "it_tools.json", it_tools);
         get_data(folder_name, language, "it_skills.json", it_skills);
         get_data(folder_name, language, "interests.json", interests);
         get_data(folder_name, language, "languages.json", languages);
         // Right column
-        get_data(folder_name, language, "texts.json", texts);
+
         get_data(folder_name, language, "work_experience.json", job_experience);
         get_data(folder_name, language, "education.json", education);
         get_data(folder_name, language, "trainings.json", trainings);

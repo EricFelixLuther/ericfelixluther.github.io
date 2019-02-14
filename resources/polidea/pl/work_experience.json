@@ -1,0 +1,61 @@
+{
+  "title": "Doświadczenie zawodowe",
+  "responsibilities_txt": "Zakres obowiązków",
+  "achievements_txt": "Osiągnięcia",
+  "data": [
+    {
+      "period": "2018.03 - do dziś",
+      "company": "Samsung Electronics Polska",
+      "job_title": "Software Engineer",
+      "responsibilities": [
+        "Wszystkie obowiązki Junior Software Engineer",
+        "Zarządzanie projektem",
+        "Rozdzielanie zadań projektowych członkom zespołu",
+        "Bezpośredni kontakt z klientem i ustalanie funkcjonalności"
+      ],
+      "achievements": [
+        "Wdrażanie nowych bibliotek usprawniających działanie",
+        "Napisanie frameworku wyprzedzającego oczekiwania klienta.",
+        "Autorski system kalendarza do zarządzania czasem pracy",
+        "Poprawa UX"
+      ]
+    },
+    {
+      "period": "2015.03 - 2018.03",
+      "company": "Samsung Electronics Polska",
+      "job_title": "Junior Software Engineer",
+      "responsibilities": [
+        "Praca nad długoterminowym i wielowarstwowym projektem - wewnątrz-firmowym portalem dla pracowników",
+        "Rozwój i utrzymanie backendu aplikacji webowych w Python/Django",
+        "Obsługa bazy danych SQL",
+        "Pisanie skryptów JavaScript i jQuery",
+        "Pisanie dokumentacji projektowych",
+        "Front-end (HTML5, CSS3)",
+        "Projektowanie testów automatyzacyjnych",
+        "Utrzymywanie serwera Linuxowego"
+      ],
+      "achievements": [
+        "Poprawa jakości legacy kodu oraz przyspieszenie działania projektu poprzez refaktoryzację bottlenecków.",
+        "Wprowadzanie nowych, bezawaryjnych funkcjonalności zgodnie z oczekiwaniami klienta.",
+        "Pokrycie testami jednostowymi projektu bez testów."
+      ]
+    },
+    {
+      "period": "2012.11 - 2015.03 ",
+      "company": "Samsung Electronics Polska",
+      "job_title": "Software Tester",
+      "responsibilities": [
+        "Testy eksploracyjne",
+        "Testy interfejsu użytkownika",
+        "Weryfikacja poprzez przypadki testowe",
+        "Zgłaszanie błędów, współpraca z programistami i sporządzanie raportów z testów",
+        "Planowanie, projektowanie i pisanie kodu testów automatycznych"
+      ],
+      "achievements": [
+        "Utrzymanie wysokich wyników zgłaszanych błędów",
+        "Utrzymywanie wyniku 300 przypadków testowych dziennie",
+        "Zaprojektowanie bazy pod testy automatyczne dla zagranicznego departamentu R&D Samsunga"
+      ]
+    }
+  ]
+}
