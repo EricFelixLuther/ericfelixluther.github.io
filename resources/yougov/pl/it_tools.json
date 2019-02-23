@@ -1,0 +1,13 @@
+{
+  "title": "Narzędzia IT",
+  "items": [
+    {"name": "Python", "children": ["Django", "Django Extensions", "Django REST Api", "CherryPy", "Selenium"]},
+    {"name": "JavaScript", "children": ["jQuery", "CalendarJS", "Masonry.js", "Charts.js", "Mustache", "React", "Angular"]},
+    {"name": "Bazy danych", "children": ["MySQL", "PostgreSQL", "SQLite"]},
+    {"name": "Systemy operacyjne", "children": ["Ubuntu", "Fedora", "Windows"]},
+    {"name": "HTML5/CSS3", "children": ["Bootstrap"]},
+    {"name": "DevOps", "children": ["Apache", "VirtualEnv", "Docker"]},
+    {"name": "Narzędzia programistyczne", "children": ["Github", "GitLab", "Trello", "Jira"]},
+    {"name": "Inne języki", "children": ["C", "Java"]}
+  ]
+}
