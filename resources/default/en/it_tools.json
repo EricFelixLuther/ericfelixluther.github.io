@@ -7,7 +7,7 @@
     {"name": "Operating Systems", "children": ["Ubuntu", "Fedora", "Windows"]},
     {"name": "HTML5/CSS3", "children": ["Bootstrap"]},
     {"name": "DevOps", "children": ["Apache", "VirtualEnv", "Docker"]},
-    {"name": "Programming tools", "children": ["Github", "GitLab", "Trello", "Jira"]},
+    {"name": "Programming tools", "children": ["Git", "Github", "GitLab", "Trello", "Jira"]},
     {"name": "Other languages", "children": ["C", "Java"]}
   ]
 }
