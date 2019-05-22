@@ -1,0 +1,61 @@
+{
+  "title": "Work experience",
+  "responsibilities_txt": "Responsibilities",
+  "achievements_txt": "Achievements",
+  "data": [
+    {
+      "period": "2018.03 - now",
+      "company": "Samsung Electronics Poland",
+      "job_title": "Software Engineer",
+      "responsibilities": [
+        "All of the responsibilities of Junior Software Engineer",
+        "Project management",
+        "Assigning project tasks to team members",
+        "Business analysis"
+      ],
+      "achievements": [
+        "Introducing new libraries",
+        "A test management framework which exceeded clients expectations.",
+        "Own SPA calendar system for teams' time management",
+        "UX enhancement"
+      ]
+    },
+    {
+      "period": "2015.03 - 2018.03",
+      "company": "Samsung Electronics Poland",
+      "job_title": "Junior Software Engineer",
+      "responsibilities": [
+        "Working on a long-term and multi-layered project - intranet portal for employees.",
+        "Web app backend's maintenance and development in Python/Django",
+        "SQL database handling",
+        "JavaScript and jQuery scripts writing",
+        "Writing project documentation",
+        "Front-end design (HTML5, CSS3)",
+        "Automated tests designing",
+        "Linux server maintenance"
+      ],
+      "achievements": [
+        "Enhancing and speeding up a legacy code and bottleneck refactorings.",
+        "Introducing new bug-free functionalities meeting client's expactations.",
+        "Test-less project unittest coverage."
+      ]
+    },
+    {
+      "period": "2012.11 - 2015.03 ",
+      "company": "Samsung Electronics Poland",
+      "job_title": "Software Tester",
+      "responsibilities": [
+        "Exploratory tests",
+        "User interface manual tests",
+        "Test case verification",
+        "Bug reporting, cooperation with engineers and test reporting",
+        "Planning, designing and writing automated code"
+      ],
+      "achievements": [
+        "Maintaining high scores of bug reports",
+        "Maintaining an average of 300 test cases per day quota",
+        "Designed a base for automated test case framework for a foreign Samsung R&D departament"
+      ]
+    }
+  ]
+}
